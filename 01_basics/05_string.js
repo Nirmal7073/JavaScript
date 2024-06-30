@@ -20,3 +20,16 @@ const gameName =  new String('nirmal');
 
 // const testString = gameName.slice(-8 ,4)
 // console.log(testString); 
+
+// const otherString = "  nirmal  "
+// console.log(otherString);
+// console.log(otherString.trim());
+
+// const url = "https://nirmal.com%20patel"
+// let mainUrl = url.replace('%20', "-");
+// console.log(mainUrl);
+// console.log(url.includes('nirmal'))
+
+// const separateMain = "nirmal-A-patel";
+// console.log(separateMain.split('-'));
+
