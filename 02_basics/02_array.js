@@ -34,3 +34,16 @@ const all_new_hero = [...marvel_hero,...dc_hero]
 // let score3 = 300;
 
 // console.log(Array.of(score1 ,score2 ,score3));
+
+
+const numb1 = [1,3,'nirmal', 'pooja',5,8];
+
+const numb2 = [3,4,6,'patel',7]
+
+// const bothNumb = numb1.concat(numb2)
+// console.log(bothNumb) 
+const arr6  = 1213214324 // this is not conver to array it's return object if we want convert then first conver to string
+// const arrayF = Array.from(arr6);
+
+const arrayF = Array.from(String(arr6));
+console.log(arrayF)

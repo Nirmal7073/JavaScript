@@ -1,7 +1,10 @@
 //array (shallow copy (same reference means when we change in copy of array its change orignal values) and deep copy(diff reference))
 
-// const  myArry = [0,1,2,9,4,5]
-// const  myArry1 = ['nirmal' , 'pooja' , 'aerik']
+const  myArry = [0,1,2,9,4,5]
+const  myArry1 = ['nirmal' , 'pooja' , 'aerik']
+
+// console.log(myArry1.indexOf('nirmal'));
+// console.log(myArry1.includes('nirmal'))
 // const myArry2 = new Array(1,2,3,4,5) ;
 
 // console.log(myArry2[2])
