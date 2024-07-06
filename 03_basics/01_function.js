@@ -43,9 +43,45 @@ function sayMyName(){
 //     return `${username} is logged in`
 // }
 
-function loginUserMessage(username="nimu"){
-    return `${username} is logged in`
+// function loginUserMessage(username="nimu"){
+//     return `${username} is logged in`
+// }
+
+// const a = loginUserMessage();
+// console.log(a);
+
+
+
+function calculateCart(...numb1) {
+    return numb1
+}
+function calculateCart(val1,val2,...numb1) {
+    return numb1
+}
+// console.log(calculateCart(200,300,200));
+
+const user = {
+    name: 'nirmal',
+    age: 30
 }
 
-const a = loginUserMessage();
-console.log(a);
+// function handleObject(anyobject) {
+//     console.log(`my name is ${anyobject.name} and age is ${anyobject.age}` )
+// }
+
+// handleObject(user);
+// handleObject({
+//     name: 'pooja',
+//     age:24
+// })
+
+const myNewarray = [100,220,344,456]
+
+function returnSecondvalue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondvalue(myNewarray));
+
+console.log(returnSecondvalue([
+    100,220,344,456
+]));
