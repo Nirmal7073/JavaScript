@@ -16,7 +16,6 @@ let myArry = ['nirmal' , 'pooja'  , 'aerik']
 // }
 
 let i= 1
-// i = 11
 do{
     console.log(`value is ${i}`)
     i++
