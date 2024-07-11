@@ -1,7 +1,7 @@
 // foreach for array (high order loop)
 // The forEach loop in JavaScript is a method available on arrays that executes a provided function once for each array element (index, value ,array)
 
-const array = ['nimu','poo','aeru']
+const array = ['java','css','html']
 
 // array.forEach( (arr) => {
 //   console.log(arr)
